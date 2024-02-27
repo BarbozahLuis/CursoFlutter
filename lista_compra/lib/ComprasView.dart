@@ -23,7 +23,7 @@ class ComprasScreen extends StatelessWidget {
               controller: _controller,
               decoration: InputDecoration(
                 labelText: 'Nova Compra',
-                //incone para adicionar tarefa ao pressionar o botao
+                //icone para adicionar tarefa ao pressionar o botao
                 suffixIcon: IconButton(
                   onPressed: () {
                     // chamando o método adicionarCompra do Providar para atuzalizar
@@ -35,7 +35,7 @@ class ComprasScreen extends StatelessWidget {
                   icon: Icon(Icons.add),
                 ),
               ),
-            ),
+            ), 
           ),
           //lista de compras usando o consumer do provider para atualização automatica
           Expanded(
