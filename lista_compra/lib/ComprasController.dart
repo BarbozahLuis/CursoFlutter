@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lista_compra/ComprasModel.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+
 
 class ComprasController extends ChangeNotifier {
   //lista de compra
