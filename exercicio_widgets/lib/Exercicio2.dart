@@ -17,17 +17,24 @@ class MyApp extends StatelessWidget{
             children: [
             Column(
               children: [
-                Text('Texto da Primeira Coluna')
+                Text('Texto da Primeira Coluna'),
+                SizedBox(height: 20),
+                Icon(Icons.phone_bluetooth_speaker),
+
               ],
             ),
             Column(
               children: [
-                Text('Texto da Segunda Coluna')
+                Text('Texto da Segunda Coluna'),
+                SizedBox(height: 20),
+                Icon(Icons.phone_callback),
               ],
             ),
             Column(
               children: [
-                Text('Texto da Terceira Coluna')
+                Text('Texto da Terceira Coluna'),
+                SizedBox(height: 20),
+                Icon(Icons.phone_android_sharp),
               ],
             ),
           ],),
